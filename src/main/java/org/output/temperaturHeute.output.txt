@@ -1,0 +1,1 @@
+Currently it is [replaceA] degrees, the highest temperature today is at [replaceB], the lowest value is at [replaceC] degrees in [replaceOrt].

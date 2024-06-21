@@ -1,0 +1,2 @@
+Tomorrow there will be [replaceA] in [replaceOrt]
+Tomorrow there should be [replaceA] in [replaceOrt]

@@ -1,0 +1,1 @@
+Tomorrow the highest temperature will be [replaceA] degrees, the lowest temperature will be [replaceB] degrees in [replaceOrt].
