@@ -1,0 +1,4 @@
+org\FileContentReader\FileContentReader.class
+org\WeatherServices\JSONParserWeatherApp.class
+org\WeatherServices\JSONService.class
+org\WeatherSkill\WeatherSkill.class
