@@ -62,7 +62,7 @@ public class WeatherSkill {
         return weatherResult;
     }
 
-    private String callWeatherApiForecast(double lat, double lon) throws SocketTimeoutException {
+    public String callWeatherApiForecast(double lat, double lon) throws SocketTimeoutException {
         String apicall = baseUrl + "/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&appid=" + API
                 + "&lang=en&units=Metric";
         return jsonService.getJSONRequestResult(apicall);
@@ -582,4 +582,9 @@ public class WeatherSkill {
         }
         return value;
     }
+
+    public void setJsonService(JSONService jsonService) {
+        this.jsonService = jsonService;
+    }
+
 }
