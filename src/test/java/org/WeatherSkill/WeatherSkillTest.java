@@ -4,14 +4,13 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 
-import org.WeatherServices.JSONParserWeatherApp;
+import org.FileContentReader.FileContentReader;
 import org.WeatherServices.JSONService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.SocketTimeoutException;
@@ -20,11 +19,10 @@ import java.net.SocketTimeoutException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
+
 public class WeatherSkillTest {
 
     private static final String API_KEY = "27d61dcaf4d1425dc27b0fe269be7c57";
-    private static final String baseUrl = "https://api.openweathermap.org";
-
 
     @Mock
     private JSONService jsonService;
@@ -114,7 +112,7 @@ public class WeatherSkillTest {
     void testCallWeatherApiForecastForCity_Success() throws Exception {
         String city = "Berlin";
         String apiResponse = "{\"coord\": {\"lon\": 13.405, \"lat\": 52.52}, \"weather\": [{\"description\": \"clear sky\"}]}";
-        String forecastResponse = "{\"current\":{\"temp\":25.5}}"; // Example forecast JSON response
+        String forecastResponse = "{\"current\":{\"temp\":25.5}}";
 
         when(jsonService.getJSONRequestResult(anyString())).thenReturn(apiResponse);
         when(jsonService.getJSONRequestResult(contains("onecall"))).thenReturn(forecastResponse);
@@ -148,7 +146,6 @@ public class WeatherSkillTest {
         assertEquals("Timeout", exception.getCause().getMessage());
         verify(jsonService, times(1)).getJSONRequestResult(anyString());
     }
-
 
 
 }
