@@ -16,4 +16,5 @@ To run the tests manually, please configure your system in the same way as our C
    mvn install -DskipTests
 
 2. **Run Tests:**
+   ```sh
     mvn test
