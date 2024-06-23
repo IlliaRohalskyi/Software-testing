@@ -1,2 +1,5 @@
-org\WeatherServices\JSONParserWeatherAppTest.class
 org\FileContentReader\FileContentReaderTest.class
+org\WeatherSkill\WeatherSkillTest.class
+org\WeatherServices\JSONParserWeatherAppTest.class
+org\WeatherServices\JSONServiceTest.class
+org\WeatherSkill\WeatherSkillDataParsingTest.class
