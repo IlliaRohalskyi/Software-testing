@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.when;
 
-import org.FileContentReader.FileContentReader;
 import org.WeatherServices.JSONService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
