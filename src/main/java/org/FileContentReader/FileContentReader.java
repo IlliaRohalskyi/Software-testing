@@ -25,7 +25,7 @@ public class FileContentReader {
         return data.get(randomNumber);
     }
 
-    public ArrayList<String> readContent() {
+    private ArrayList<String> readContent() {
 
         ArrayList<String> data = new ArrayList<String>();
         String line;
