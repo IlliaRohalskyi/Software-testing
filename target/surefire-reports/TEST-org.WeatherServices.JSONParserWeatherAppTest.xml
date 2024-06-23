@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.WeatherServices.JSONParserWeatherAppTest" time="0.036" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.WeatherServices.JSONParserWeatherAppTest" time="0.031" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\2004l\AppData\Local\Temp\surefire6764234048596345134\surefirebooter4159107388217669500.jar C:\Users\2004l\AppData\Local\Temp\surefire6764234048596345134 2024-06-22T20-33-13_192-jvmRun1 surefire13655735140269856267tmp surefire_02441840192871730785tmp"/>
+    <property name="sun.java.command" value="C:\Users\2004l\AppData\Local\Temp\surefire14400153802882583232\surefirebooter4418094402733425487.jar C:\Users\2004l\AppData\Local\Temp\surefire14400153802882583232 2024-06-23T12-50-27_186-jvmRun1 surefire8667628060697854102tmp surefire_07444648552130185638tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\2004l\Desktop\Software-testing\target\test-classes;C:\Users\2004l\Desktop\Software-testing\target\classes;C:\Users\2004l\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2004l\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2004l\.m2\repository\org\mockito\mockito-core\3.6.0\mockito-core-3.6.0.jar;C:\Users\2004l\.m2\repository\net\bytebuddy\byte-buddy\1.10.15\byte-buddy-1.10.15.jar;C:\Users\2004l\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.15\byte-buddy-agent-1.10.15.jar;C:\Users\2004l\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\2004l\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.0\junit-jupiter-5.8.0.jar;C:\Users\2004l\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.0\junit-jupiter-api-5.8.0.jar;C:\Users\2004l\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\2004l\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0\junit-platform-commons-1.8.0.jar;C:\Users\2004l\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2004l\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.0\junit-jupiter-params-5.8.0.jar;C:\Users\2004l\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.0\junit-jupiter-engine-5.8.0.jar;C:\Users\2004l\.m2\repository\org\junit\platform\junit-platform-engine\1.8.0\junit-platform-engine-1.8.0.jar;C:\Users\2004l\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\2004l\.m2\repository\org\jetbrains\annotations\19.0.0\annotations-19.0.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\2004l\AppData\Local\Temp\surefire6764234048596345134\surefirebooter4159107388217669500.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\2004l\AppData\Local\Temp\surefire14400153802882583232\surefirebooter4418094402733425487.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -58,12 +58,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testParseWetherResultsAsLong" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0.015"/>
+  <testcase name="testParseWetherResultsAsLong" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0.011"/>
   <testcase name="testParseWetherResultsAsInt" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0.002"/>
-  <testcase name="testGetDailyWetherResult" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0.003"/>
+  <testcase name="testGetDailyWetherResult" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0.002"/>
   <testcase name="testGetDailyDataDouble" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0.001"/>
-  <testcase name="testParseWetherResultsAsDouble" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0"/>
+  <testcase name="testParseWetherResultsAsDouble" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0.001"/>
   <testcase name="testGetDailyDataString" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0.001"/>
   <testcase name="testParseWetherResultsAsString" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0.001"/>
-  <testcase name="testGetHourlyWetherResult" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0.001"/>
+  <testcase name="testGetHourlyWetherResult" classname="org.WeatherServices.JSONParserWeatherAppTest" time="0.002"/>
 </testsuite>
