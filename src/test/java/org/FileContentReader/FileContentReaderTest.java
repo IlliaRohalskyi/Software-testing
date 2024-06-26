@@ -22,7 +22,7 @@ public class FileContentReaderTest {
     @BeforeEach
     public void setUp() throws IOException {
         testFilePath = "src/test/resources/testFile.txt";
-        Files.writeString(Path.of(testFilePath), "Test line 1\nTest line 2\nTest line 3"); //comment for CI demo
+        Files.writeString(Path.of(testFilePath), "Test line 1\nTest line 2\nTest line 3");
         fileContentReader = new FileContentReader(testFilePath);
     }
 
