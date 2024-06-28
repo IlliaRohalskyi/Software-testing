@@ -9,14 +9,8 @@ import org.mockito.InjectMocks;
 import org.mockito.MockitoAnnotations;
 
 public class JSONServiceTest {
-
-    @InjectMocks
     private JSONService jsonService;
 
-    @BeforeEach
-    void setUp() throws Exception {
-        MockitoAnnotations.openMocks(this);
-    }
 
     @Test
     void testGetJSONRequestResult_Success() throws Exception {

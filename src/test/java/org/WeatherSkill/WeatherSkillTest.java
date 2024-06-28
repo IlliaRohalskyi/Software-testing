@@ -21,7 +21,7 @@ import static org.mockito.Mockito.*;
 
 public class WeatherSkillTest {
 
-    private static final String API_KEY = "27d61dcaf4d1425dc27b0fe269be7c57";
+    private static final String API_KEY = "";
 
     @Mock
     private JSONService jsonService;
