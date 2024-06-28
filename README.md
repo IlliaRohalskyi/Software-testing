@@ -1,7 +1,7 @@
 # Software Testing
 
 ## Overview
-We tested the OpenWeatherAPI software, which laid the foundation for our project. Additionally, we have implemented a continuous integration (CI) pipeline using GitHub Actions to run our tests automatically.
+We tested the OpenWeatherAPI software, which laid the foundation for our project. The software was taken from the lectures on software testing and were made by Pascal Moll. We have also implemented a continuous integration (CI) pipeline using GitHub Actions to run our tests automatically.
 This project was developed with the support of AI tools (GitHub Copilot, ChatGPT, Gemini) to enhance our knowledge and improve the development process. Please note, we used these tools for debugging and gaining insights to improve our implementation, not to copy the code directly.
 
 
